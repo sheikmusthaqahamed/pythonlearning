@@ -1,7 +1,9 @@
-import requests
-print("Hi Sheik")
-print("w")
 
-response = requests.get('https://api.github.com')
-print(response.status_code)
-print(response.json())
+age = int(input("Enter your age: "))
+name = "Sheik"
+if age == 10:
+    print("Hi Sheik 10 yrs old")
+elif age >=11 and age <= 20:
+    print("Hi Sheik2")
+elif name == "Sheik":
+    print("Hi Sheik3")
