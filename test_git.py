@@ -1,4 +1,9 @@
+count = 10
+def test():
+    print(count)
+def test2():
+    count = 5
+    print(count)
 
-print(list(range(3,10)))
-for num in range(3,10):
-    print(num)
+test2()
+test()
