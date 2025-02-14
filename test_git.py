@@ -1,16 +1,14 @@
 def test():
-    while True:
-        num = int(input("Enter the number - \n"))
-        try:
-            print(12/num)
-            False
-        except ZeroDivisionError as e:
-            print(f"Error - {e}")
-            
-        except TypeError as e:
-            print(f"Error - {e}")
-        finally:
-            "Do you want to Exit?"
-            
+    
+   
+    try:
+        return (12/0)
+    except Exception as e:
+        print("e1")
+        return e
+    finally:
+        print("rgvfb")
+        #return ("Finally Block")
 
-test()
+#ONLY ONE RETURN IS RETURNED
+print(test())
