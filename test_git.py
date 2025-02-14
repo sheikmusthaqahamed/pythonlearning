@@ -3,12 +3,14 @@ def test():
         num = int(input("Enter the number - \n"))
         try:
             print(12/num)
-            break
+            False
         except ZeroDivisionError as e:
             print(f"Error - {e}")
-            continue
+            
         except TypeError as e:
             print(f"Error - {e}")
-            continue
+        finally:
+            "Do you want to Exit?"
+            
 
 test()
