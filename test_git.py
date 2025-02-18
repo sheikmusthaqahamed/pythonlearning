@@ -24,3 +24,5 @@ a,b,c,d,e = ["ec","Ed","2de","wd"]
 #     a,b,c = ["ec","Ed","2de","wd"]
 #     ^^^^^
 # ValueError: too many values to unpack (expected 3)
+
+
