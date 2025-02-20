@@ -2,7 +2,7 @@ data={1:"Hi",-3:"Bye2",-3:"Bye1"}
 
 # print(data[3])
 
-print(data.get(3,"Dei"))
+print(data.get(3,"Dull"))
 
 data.setdefault("dd","ji")
 
