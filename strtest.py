@@ -6,3 +6,5 @@ print(f'Hi \' jivi')
 "342" . isdecimal ()
 text = "   "
 text.isspace()
+
+#local change
