@@ -18,3 +18,5 @@ for key,value in data.items():
 stro = "Sheik"
 sheik=stro.casefold()
 print(sheik)
+
+print("Sheik","Di",sep="Mi")
