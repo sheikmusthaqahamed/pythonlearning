@@ -6,7 +6,3 @@ print(f'Hi \' jivi')
 "342" . isdecimal ()
 text = "   "
 text.isspace()
-
-#stach test
-#new line
-#NEW 2
