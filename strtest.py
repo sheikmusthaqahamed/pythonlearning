@@ -9,3 +9,4 @@ text.isspace()
 
 #hub change #local changed merged
 #hub change2
+>>>>>>>>> Temporary merge branch 2
