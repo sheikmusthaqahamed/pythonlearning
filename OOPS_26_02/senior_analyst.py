@@ -13,3 +13,9 @@ class SeniorAnalyst(Analyst):
 
     def do_work(self):
         print(f"Doing SAnalyst level activities for {self.name}")
+
+sa1 = SeniorAnalyst(2157925,"Sheik",2022,"Chennai")
+
+sa1.rating_info(3,21)
+sa1.submit_timesheet(4)
+sa1.do_work()

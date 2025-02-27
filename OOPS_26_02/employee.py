@@ -12,3 +12,5 @@ class Employee:
     
     def submit_timesheet(self,no_of_days):
         print(f"Timesheet for {self.name} is submitted for {no_of_days} days")
+
+#after class
