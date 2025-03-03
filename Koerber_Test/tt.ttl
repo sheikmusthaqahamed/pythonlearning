@@ -1,0 +1,27 @@
+; Open a file.
+
+fileopen fhandle 'C:\Users\2157925\Downloads\cognizantgithub\pythonlearning\Koerber_Test\storage_locs.txt' 0
+i = 5
+ind = 1
+while i==5
+    ; Read a line from the file.
+    filereadln fhandle line
+    
+    ;messagebox line 'test.txt'
+    sendln line
+    
+    pause 1
+    callmenu 50280
+    callmenu 50210
+    ;pause 1
+    exec 'C:/Users/2157925/Downloads/cognizantgithub/pythonlearning/.venv/Scripts/python.exe C:\\Users\\2157925\\Downloads\\cognizantgithub\\pythonlearning\\Koerber_Test\\koerber_test.py RFOUTB' 'show' 1
+    pause 1
+    callmenu 50270
+    i=result
+    ;messagebox i 'test.txt'
+    
+
+    ; Repeat until the end of the file.
+endwhile
+; Close the file.
+fileclose fhandle
